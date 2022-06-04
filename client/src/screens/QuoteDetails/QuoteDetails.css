@@ -1,0 +1,54 @@
+.wrap-details {
+    max-width: 700px;
+    margin: 100px auto;
+    color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.wrap-details h3 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.wrap-details p {
+    padding: 20px 0 20px 10px;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.wrap-details .add-info {
+    display: flex;
+    column-gap: 30px;
+}
+.wrap-details .add-info div {
+    background-color: darkseagreen;
+    color: whitesmoke;
+    padding: 5px;
+}
+.wrap-details .current-state {
+    pointer-events: none;
+}
+
+@media (max-width: 780px) {
+    .wrap-details {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 500px) {
+    .wrap-details .current-state .inner-block {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .wrap-details .current-state .table-column {
+        flex: 1 1 20%;
+    }
+
+    .wrap-details .current-state .quote-icon,
+    .wrap-details .current-state .quote-prev {
+        flex: 1 1 38%;
+    }
+}
+
+/*# sourceMappingURL=QuoteDetails.css.map */

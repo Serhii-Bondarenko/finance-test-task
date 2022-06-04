@@ -94,3 +94,13 @@ The tickers we use:
 3. Modify content of the folder `server` - if you want to complete bonus tasks
 4. Commit and push your code to your repository
 5. Send us link to your repository
+
+## Implemented functionality
+- application connect to the locally running service
+- application render price changes for some tickers in real time
+- responsive markup
+- current ticket price and change_percent are calculated based on the previous price
+- provided additional visual effects (color, arrows, symbols) to highlight positive or negative price changes
+- added the ability to enable / disable tickers by the user
+- added the ability to show / hide the ticker from the viewing group
+- added the ability to select a ticker from the list and view detailed information about its status (previous price, current time, dividend etc.)
